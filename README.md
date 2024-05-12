@@ -1,6 +1,9 @@
-# ISLAND-DFS
+Claro, aqui está o código em um bloco de código markdown com uma breve explicação acima dele:
 
-'''cpp
+**Explicação:**
+Este algoritmo utiliza a busca em profundidade (DFS) para contar o número de ilhas em uma grade bidimensional. Uma ilha é definida como um grupo de células adjacentes verticalmente ou horizontalmente que contêm o valor `1`, representando terra. O algoritmo percorre cada célula da grade; quando encontra uma célula de terra não visitada, realiza uma busca em profundidade para marcar todas as células conectadas dessa ilha como visitadas. O contador de ilhas é incrementado cada vez que uma nova ilha é encontrada.
+
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -53,4 +56,8 @@ int main() {
     cout << countIslands(grid) << endl; // Saída: 3
     return 0;
 }
-'''
+```
+Espero que isso seja o que você estava procurando! Se precisar de mais alguma coisa, estou à disposição.
+
+Origem: conversa com o Bing, 12/05/2024
+(1) github.com. https://github.com/peanutzhen/leetcode/tree/1ade2e9ae2ce1507aebd778aab8bfc1d4fb23885/solutions%2F__197_shopee2022B.cpp.
